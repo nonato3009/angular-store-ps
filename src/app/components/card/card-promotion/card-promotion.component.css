@@ -1,0 +1,40 @@
+.card-promotion__container{
+  position: absolute;
+  bottom: 180px;
+  right: 0;
+}
+
+.card-promotion__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 40px;
+  padding: 0 20px;
+}
+
+.placa1 {
+  color: #0A3F92;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  background-color: #ffffff;
+  padding: 10px;
+  position: absolute;
+  bottom: 40px;
+  right: 50px;
+  box-shadow: 0 5px 10px 0 rgb(4, 4, 4, 0.5);
+  border-start-start-radius: 10px;
+  border-end-end-radius: 10px;
+}
+
+.placa2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  background-color: #0A3F92;
+  padding: 10px;
+  border-end-end-radius: 10px;
+}
